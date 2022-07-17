@@ -1,0 +1,30 @@
+.container-fluid{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 3px;
+    
+}
+
+.logo-img{
+    width: 130px;
+}
+.header{
+    background-color: rgb(255, 216, 165);
+}
+.header-text{
+    text-align: center !important; 
+    margin-top: 40px;
+}
+.about-img{
+    width: 400px;
+}
+
+.page-footer{
+    background-color: rgb(255, 216, 165);
+}
+li{
+    font-size: 30px !important;
+    
+}
+.color{
+    color: rgb(19, 19, 17) !important;
+}
