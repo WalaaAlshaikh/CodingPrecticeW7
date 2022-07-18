@@ -1,6 +1,7 @@
 .container-fluid{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     word-spacing: 3px;
+    background-color: rgb(255, 245, 232);
     
 }
 
@@ -15,8 +16,18 @@
     margin-top: 40px;
 }
 .about-img{
-    width: 400px;
+   
+    height: 80%;
 }
+.rights{
+    text-align: left;
+    margin-right: 200px;
+   
+    }
+.left{
+    text-align: left;
+
+    }
 
 .page-footer{
     background-color: rgb(255, 216, 165);
@@ -25,6 +36,25 @@ li{
     font-size: 30px !important;
     
 }
+
 .color{
     color: rgb(19, 19, 17) !important;
+}
+.product-pic{
+    margin-top: -7px;
+    width: 400px;
+    height: 300px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.col{
+    align-items: center;
+    text-align: center;
+}
+
+#Docs{
+    background-color: rgb(219, 151, 83);
+    width: 106%;
+    padding: 7px;
+    color: white;
 }
