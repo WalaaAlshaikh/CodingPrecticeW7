@@ -1,5 +1,5 @@
 .container-fluid{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     word-spacing: 3px;
     background-color: rgb(255, 245, 232);
     
@@ -10,6 +10,7 @@
 }
 .header{
     background-color: rgb(255, 216, 165);
+    color: rgb(101, 58, 0);
 }
 .header-text{
     text-align: center !important; 
@@ -17,13 +18,20 @@
 }
 .about-img{
    
-    height: 80%;
+    height: 20%;
+   border-radius: 10px;
 }
-.rights{
-    text-align: left;
-    margin-right: 200px;
-   
-    }
+.divide{
+    padding-right: 90px;
+    
+    border-right: 1px solid rgb(135, 135, 135);
+    
+}
+.about{
+    font-size: 20px;
+    color: rgb(101, 58, 0);
+}
+
 .left{
     text-align: left;
 
@@ -35,6 +43,15 @@
 li{
     font-size: 30px !important;
     
+}
+
+#carouselExampleFade{
+    left: 5%;
+  width: fit-content ;
+}
+
+.caro{
+    width: 400px;
 }
 
 .color{
@@ -50,6 +67,7 @@ li{
 .col{
     align-items: center;
     text-align: center;
+    color:  rgb(101, 58, 0);
 }
 
 #Docs{
@@ -57,4 +75,11 @@ li{
     width: 106%;
     padding: 7px;
     color: white;
+}
+.a{
+    background-color: rgb(101, 58, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: max-content;
 }
